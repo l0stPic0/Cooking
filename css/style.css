@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Основные стили */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,9 +12,9 @@ body {
     color: #333;
 }
 
-/* Заголовок */
+
 header {
-    background: #ff6f61; /* Цвет фона заголовка */
+    background: #ff6f61; 
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -35,7 +34,7 @@ nav a {
     text-decoration: none;
 }
 
-/* Основной контент */
+
 main {
     padding: 20px;
 }
@@ -43,16 +42,16 @@ main {
 section {
     margin-bottom: 30px;
     padding: 15px;
-    background-color: white; /* Цвет фона секций */
-    border-radius: 5px; /* Скругление углов */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для секций */
+    background-color: white; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 h2 {
-    color: #ff6f61; /* Цвет заголовков секций */
+    color: #ff6f61; 
 }
 
-/* Стили для форм */
+
 form {
     display: flex;
     flex-direction: column;
@@ -67,29 +66,28 @@ input[type="password"],
 input[type="email"] {
     padding: 10px;
     margin-bottom: 15px;
-    border-radius: 5px; /* Скругление углов полей ввода */
-    border: 1px solid #ccc; /* Цвет рамки полей ввода */
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
 }
 
 input[type="submit"] {
-    background-color: #ff6f61; /* Цвет кнопки отправки */
-    color: white; /* Цвет текста кнопки */
-    border: none; /* Убираем рамку */
-    padding: 10px; /* Отступы внутри кнопки */
-    border-radius: 5px; /* Скругление углов кнопки */
-    cursor: pointer; /* Курсор при наведении на кнопку */
-}
+    background-color: #ff6f61; 
+    color: white;
+    border: none; 
+    padding: 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
 
 input[type="submit"]:hover {
-    background-color: #e55b50; /* Цвет кнопки при наведении */
+    background-color: #e55b50; 
 }
 
-/* Подвал */
+
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #ff6f61; /* Цвет фона подвала */
-    color: white; /* Цвет текста подвала */
+    background-color: #ff6f61; 
+    color: white; 
 }
 
 :root {
@@ -140,7 +138,7 @@ nav a:hover {
 .welcome-content,
 .about-content {
     display: flex;
-    align-items: flex-start; /* Изменено на flex-start для выравнивания текста по верху */
+    align-items: flex-start; 
     padding: 20px;
 }
 
